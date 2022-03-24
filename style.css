@@ -1,0 +1,78 @@
+body {
+    height: 100vh;
+    background:linear-gradient(
+    130deg,
+    orange 0%,
+    orange 50%,
+    darkorange 50%,
+    darkorange 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    padding: 10vh;
+    display: flex-grid;
+    max-height: 800px;
+    max-width: 800px;
+    margin-left: 100px;
+    flex-basis: 800px;
+    
+  }
+  
+  /*HEader date and search bar*/
+  .search {
+    margin-right: 200px;
+  }
+  
+  .clock {
+    font-size: 36px;
+  }
+  
+  input {
+    width: 500px;
+    font-size: 24px;
+    border-radius: 8px;
+    border: 0px
+  }
+  
+  /*Links and content*/
+  
+  .link-card {
+    display: grid;
+    gap: 20px;
+    padding: 30px;
+    margin-left: 100px;
+  }
+  
+  .card {
+  }
+  
+  .links {
+    min-height: 150px;
+    max-width: 150px;
+    background-color: lightgrey;
+    
+    border: 5px;
+    border-color: black;
+    border-radius: 10px;
+    padding-top: 10px;
+  }
+  
+  li {
+    margin: 5px;
+  }
+  
+  #study {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+  
+  #dev {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+  
+  
+  
